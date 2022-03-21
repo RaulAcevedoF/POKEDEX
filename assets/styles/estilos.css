@@ -1,0 +1,176 @@
+body{
+    background-image: url("/assets/img/fondo2.jpg");
+    
+}
+
+.container{
+    background-color: red;
+    max-width: 450px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.circulos{
+    padding-top: 20px;
+    padding-left: 20px;
+    display: inline-flex;
+}
+
+.caqua{
+    background-color: aqua;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.crojo{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+
+.camarillo{
+    background-color: yellow;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+
+.cverde{
+    background-color: greenyellow;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+
+.pokeinfo{
+    background-color: antiquewhite;
+    max-width: 400px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.pokename{
+    padding-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.imgcontainer{
+    position: relative;
+    margin: 10px auto;
+    padding-left: 120px;
+    align-items: center;
+}
+
+
+.id{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.tipo{
+    padding-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+
+.estad{
+    padding-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.estadisticas{
+    padding-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.mov{
+    padding-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.movimientos{
+    padding-top: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+
+.circulos2{
+    padding-top: 10px;
+    padding-left: 20px;
+    display: inline-flex;
+}
+
+.cazul{
+    background-color: cornflowerblue;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.pilverde{
+    background-color: greenyellow;
+    width: 80px;
+    height: 20px;
+    border-radius: 10% 10% 10% 10%;
+    margin-left: 10px;
+}
+
+.pilamarrila{
+    background-color: yellow;
+    width: 80px;
+    height: 20px;
+    border-radius: 10% 10% 10% 10%;
+    margin-left: 10px;
+}
+
+.entrada{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.entrada input{
+    background-color: tomato;
+    width:330px;
+    height: 30px;
+    border-radius: 10% 10% 10% 10%;
+    color: white;
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.entrada button{
+    margin-left: 10px;
+    background-color: brown;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

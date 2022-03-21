@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./assets/styles/estilos.css">
+   
+  </head>
+  <body>
+
+    <div class="container">
+        
+        <div class="circulos">
+            <div class="caqua"></div>
+            <div class="crojo"></div>
+            <div class="camarillo"></div>
+            <div class="cverde"></div>
+        </div>
+
+        <div class="pokeinfo">
+
+            <div class="pokename">
+                <label  id="nombre">Pokémon</label>
+            </div>
+
+            <div class="imgcontainer">
+                <img src="./assets/img/pokebolla.png" id="pokeImg" alt="pokemon" width="150px"/>
+            </div>
+
+            <div class="id">
+                <label id="identificador"></label>
+            </div>
+
+            <div class="tipo">
+                <label id="tipo"></label>
+            </div>
+
+            <div class="estad">====Estadisticas====</div>
+
+            <div class="estadisticas" id="estadisticas"></div>
+
+            <div class="mov">====Movimientos====</div>
+
+            <div class="movimientos"id="movimientos"></div>
+
+        </div>
+
+        <div class="circulos2">
+            <div class="cazul"></div>
+            <div class="pilverde"></div>
+            <div class="pilamarrila"></div>
+        </div>
+
+        <div class="entrada">
+            <input type="text" placeholder="Busca tu pokémon" id="pokeName" name="pokeName" autocomplete="off"/>
+            <button onclick="fetchPokemon()">Buscar</button>
+        </div>
+
+    </div>
+
+  </body>
+
+  <footer>
+    <script src="./pokedex.js"></script>
+  </footer>
+</html>
